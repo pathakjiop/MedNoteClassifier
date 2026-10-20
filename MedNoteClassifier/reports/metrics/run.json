@@ -1,0 +1,8 @@
+{
+  "seconds": 174.0419945716858,
+  "seed": 42,
+  "project_root": "/workspace/MedNoteClassifier",
+  "n_train_rows": 11440,
+  "n_val_rows": 1430,
+  "n_test_rows": 1430
+}

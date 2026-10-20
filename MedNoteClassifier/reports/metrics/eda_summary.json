@@ -1,0 +1,178 @@
+{
+  "n_train_rows": 14300,
+  "n_unique_notes_all": 42146,
+  "n_annotated_notes": 1000,
+  "n_features": 143,
+  "n_cases": 10,
+  "n_empty_annotations": 4399,
+  "n_nonempty_annotations": 9901,
+  "missing_values_train": {
+    "id": 0,
+    "case_num": 0,
+    "pn_num": 0,
+    "feature_num": 0,
+    "annotation": 0,
+    "location": 0
+  },
+  "duplicate_train_ids": 0,
+  "note_char_len_mean": 812.1771461111375,
+  "note_char_len_max": 950,
+  "span_len_mean": 13.86751247920133,
+  "span_len_median": 11.0,
+  "invalid_spans": 114,
+  "notes_with_overlapping_spans": 544,
+  "notes_with_zero_spans": 0,
+  "mean_spans_per_annotated_note": 14.424,
+  "top_phrases": [
+    [
+      "F",
+      337
+    ],
+    [
+      "female",
+      238
+    ],
+    [
+      "palpitations",
+      135
+    ],
+    [
+      "M",
+      132
+    ],
+    [
+      "nervousness",
+      130
+    ],
+    [
+      "male",
+      116
+    ],
+    [
+      "nausea",
+      115
+    ],
+    [
+      "chest pain",
+      101
+    ],
+    [
+      "irregular periods",
+      97
+    ],
+    [
+      "6 months",
+      83
+    ],
+    [
+      "yesterday",
+      81
+    ],
+    [
+      "17 yo",
+      79
+    ],
+    [
+      "35 yo",
+      75
+    ],
+    [
+      "sharp",
+      72
+    ],
+    [
+      "20 yo",
+      71
+    ],
+    [
+      "hot flashes",
+      71
+    ],
+    [
+      "difficulty falling asleep",
+      67
+    ],
+    [
+      "vomiting",
+      59
+    ],
+    [
+      "diarrhea",
+      56
+    ],
+    [
+      "trouble sleeping",
+      56
+    ],
+    [
+      "heart pounding",
+      51
+    ],
+    [
+      "vaginal dryness",
+      51
+    ],
+    [
+      "f",
+      50
+    ],
+    [
+      "IUD",
+      46
+    ],
+    [
+      "decreased appetite",
+      45
+    ],
+    [
+      "chest pressure",
+      42
+    ],
+    [
+      "motrin",
+      42
+    ],
+    [
+      "SOB",
+      41
+    ],
+    [
+      "epigastric pain",
+      41
+    ],
+    [
+      "45 yo",
+      40
+    ]
+  ],
+  "features_per_case": {
+    "0": 13,
+    "1": 13,
+    "2": 17,
+    "3": 16,
+    "4": 10,
+    "5": 18,
+    "6": 12,
+    "7": 9,
+    "8": 18,
+    "9": 17
+  },
+  "columns_train": [
+    "id",
+    "case_num",
+    "pn_num",
+    "feature_num",
+    "annotation",
+    "location"
+  ],
+  "columns_notes": [
+    "pn_num",
+    "case_num",
+    "pn_history"
+  ],
+  "columns_features": [
+    "feature_num",
+    "case_num",
+    "feature_text"
+  ]
+}

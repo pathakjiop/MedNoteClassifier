@@ -1,0 +1,681 @@
+{
+  "false_positives": [
+    {
+      "id": "02223_000",
+      "feature": "Family history of MI / Family history of myocardial infarction",
+      "gold": [
+        {
+          "start": 639,
+          "end": 649,
+          "text": "er- MI at "
+        }
+      ],
+      "pred": [
+        {
+          "start": 635,
+          "end": 641,
+          "text": "Father"
+        },
+        {
+          "start": 644,
+          "end": 650,
+          "text": "I at 5"
+        }
+      ],
+      "note_excerpt": "italizations.\nMeds: Adderall from a friend. Denies others.\nAllergies: NKA\nFmHx: Father- MI at 52\nMother; Thyroid issue\nSHx: College student for 1 year. Living on campus. Schoo"
+    },
+    {
+      "id": "02223_001",
+      "feature": "Family history of thyroid disorder",
+      "gold": [
+        {
+          "start": 657,
+          "end": 678,
+          "text": "r; Thyroid issue\nSHx:"
+        }
+      ],
+      "pred": [
+        {
+          "start": 394,
+          "end": 397,
+          "text": "has"
+        },
+        {
+          "start": 432,
+          "end": 435,
+          "text": "has"
+        }
+      ],
+      "note_excerpt": "s energy drinks from time to time. He reports that his mood is good and college has been fine but a little hectic. He has not noted any particular triggers. Denies recent weight changes or changes to h"
+    },
+    {
+      "id": "02223_005",
+      "feature": "No hair changes / no nail changes / no temperature intolerance",
+      "gold": [
+        {
+          "start": 471,
+          "end": 477,
+          "text": "Denies"
+        },
+        {
+          "start": 503,
+          "end": 518,
+          "text": "changes to hair"
+        }
+      ],
+      "pred": [
+        {
+          "start": 471,
+          "end": 477,
+          "text": "Denies"
+        },
+        {
+          "start": 599,
+          "end": 605,
+          "text": "Denies"
+        },
+        {
+          "start": 755,
+          "end": 761,
+          "text": "Denies"
+        },
+        {
+          "start": 824,
+          "end": 830,
+          "text": "Denies"
+        },
+        {
+          "start": 514,
+          "end": 518,
+          "text": "hair"
+        }
+      ],
+      "note_excerpt": "ge has been fine but a little hectic. He has not noted any particular triggers. Denies recent weight changes or changes to hair and skin.\nNo prior surgeries or hospitalizations.\nMeds: Adderall from a friend. Denies others.\nAllergies: NKA\nFmHx: Father- MI at 52\nMother; Thyroid issue\nSHx: College student for 1 year. Living on campus. School is \"hectic\"\nHigh risk: Denies smoking. Drinks 3-4 drinks per weekend. Tried marajuana once. Denies other drugs."
+    },
+    {
+      "id": "02223_006",
+      "feature": "Adderall use",
+      "gold": [
+        {
+          "start": 233,
+          "end": 241,
+          "text": "adderall"
+        },
+        {
+          "start": 577,
+          "end": 585,
+          "text": "derall f"
+        }
+      ],
+      "pred": [
+        {
+          "start": 233,
+          "end": 241,
+          "text": "adderall"
+        },
+        {
+          "start": 575,
+          "end": 583,
+          "text": "Adderall"
+        },
+        {
+          "start": 226,
+          "end": 232,
+          "text": "taking"
+        }
+      ],
+      "note_excerpt": "re, and light headedness. He reports that these issues started after he started taking adderall given to him by a friend to help with studying at college. He also drinks energy drinks from time to time. He reports that his mood is good and college has been fine but a little hectic. He has not noted any particular triggers. Denies recent weight changes or changes to hair and skin.\nNo prior surgeries or hospitalizations.\nMeds: Adderall from a friend. Denies others.\nAllergies: NKA\nFmHx: Father- MI at 52\nMother; Thy"
+    },
+    {
+      "id": "02223_008",
+      "feature": "Caffeine use",
+      "gold": [
+        {
+          "start": 316,
+          "end": 329,
+          "text": "energy drinks"
+        }
+      ],
+      "pred": [
+        {
+          "start": 309,
+          "end": 315,
+          "text": "drinks"
+        },
+        {
+          "start": 323,
+          "end": 329,
+          "text": "drinks"
+        },
+        {
+          "start": 771,
+          "end": 777,
+          "text": "Drinks"
+        },
+        {
+          "start": 782,
+          "end": 788,
+          "text": "drinks"
+        },
+        {
+          "start": 226,
+          "end": 232,
+          "text": "taking"
+        }
+      ],
+      "note_excerpt": "re, and light headedness. He reports that these issues started after he started taking adderall given to him by a friend to help with studying at college. He also drinks energy drinks from time to time. He reports that his mood is good and college has been fine but a little hectic. He has not noted any particular triggers. Denies recent weight changes or changes to hair and skin.\nNo prior surgeries or hospitalizations.\nMeds: Adderall from a friend. Denies others.\nAllergies: NKA\nFmHx: Father- MI at 52\nMother; Thyroid issue\nSHx: College student for 1 year. Living on campus. School is \"hectic\"\nHigh risk: Denies smoking. Drinks 3-4 drinks per weekend. Tried marajuana once. Denies other drugs."
+    },
+    {
+      "id": "02223_010",
+      "feature": "Few months duration",
+      "gold": [],
+      "pred": [
+        {
+          "start": 202,
+          "end": 208,
+          "text": "tarted"
+        },
+        {
+          "start": 219,
+          "end": 225,
+          "text": "tarted"
+        }
+      ],
+      "note_excerpt": "lpitations, chest pressure, and light headedness. He reports that these issues started after he started taking adderall given to him by a friend to help with studying at college. He a"
+    },
+    {
+      "id": "02271_000",
+      "feature": "Family history of MI / Family history of myocardial infarction",
+      "gold": [
+        {
+          "start": 461,
+          "end": 478,
+          "text": "art attack at 52\n"
+        }
+      ],
+      "pred": [
+        {
+          "start": 310,
+          "end": 316,
+          "text": "er has"
+        },
+        {
+          "start": 465,
+          "end": 476,
+          "text": "attack at 5"
+        }
+      ],
+      "note_excerpt": "des, no diarrhea\n-takes adderall a few times that is prescribed to friend, however has been taking this for a year now\n-no history of thyroid problems\nPMH: none\nMeds: adderall (not prescribed)\nFamHx: Mom- \"thyroid problem\"; dad- heart attack at 52\nSocial: lives with roomate; 3-4 alcoholic beverages/week, no durgs, sexually a"
+    },
+    {
+      "id": "02271_001",
+      "feature": "Family history of thyroid disorder",
+      "gold": [
+        {
+          "start": 437,
+          "end": 458,
+          "text": "hyroid problem\"; dad-"
+        }
+      ],
+      "pred": [
+        {
+          "start": 310,
+          "end": 316,
+          "text": "er has"
+        }
+      ],
+      "note_excerpt": "des, no diarrhea\n-takes adderall a few times that is prescribed to friend, however has been taking this for a year now\n-no history of thyroid problems\nPMH: none\nMeds:"
+    },
+    {
+      "id": "02271_003",
+      "feature": "Intermittent symptoms",
+      "gold": [
+        {
+          "start": 66,
+          "end": 74,
+          "text": "pisodes "
+        }
+      ],
+      "pred": [
+        {
+          "start": 65,
+          "end": 73,
+          "text": "episodes"
+        },
+        {
+          "start": 225,
+          "end": 233,
+          "text": "episodes"
+        },
+        {
+          "start": 74,
+          "end": 88,
+          "text": "occur randomly"
+        }
+      ],
+      "note_excerpt": "17 yo male with no PMH presents with 3-4 months of palpitations\n-episodes occur randomly, no associated with activity, associated with shortness of breath and pre-syncope\n-no sweating, feeling of impending doom, anxiety with episodes, no diarrhea\n-takes adderall a few times that is prescribed to friend, however "
+    },
+    {
+      "id": "02271_005",
+      "feature": "No hair changes / no nail changes / no temperature intolerance",
+      "gold": [],
+      "pred": [
+        {
+          "start": 175,
+          "end": 183,
+          "text": "sweating"
+        }
+      ],
+      "note_excerpt": "sociated with activity, associated with shortness of breath and pre-syncope\n-no sweating, feeling of impending doom, anxiety with episodes, no diarrhea\n-takes adderall "
+    },
+    {
+      "id": "02271_006",
+      "feature": "Adderall use",
+      "gold": [
+        {
+          "start": 257,
+          "end": 265,
+          "text": "erall a "
+        },
+        {
+          "start": 403,
+          "end": 411,
+          "text": "ll (not "
+        }
+      ],
+      "pred": [
+        {
+          "start": 254,
+          "end": 262,
+          "text": "adderall"
+        },
+        {
+          "start": 397,
+          "end": 405,
+          "text": "adderall"
+        },
+        {
+          "start": 579,
+          "end": 583,
+          "text": "uses"
+        },
+        {
+          "start": 284,
+          "end": 291,
+          "text": "rescrib"
+        },
+        {
+          "start": 412,
+          "end": 419,
+          "text": "rescrib"
+        },
+        {
+          "start": 322,
+          "end": 328,
+          "text": "taking"
+        },
+        {
+          "start": 263,
+          "end": 270,
+          "text": "a few t"
+        },
+        {
+          "start": 330,
+          "end": 335,
+          "text": "his f"
+        }
+      ],
+      "note_excerpt": " sweating, feeling of impending doom, anxiety with episodes, no diarrhea\n-takes adderall a few times that is prescribed to friend, however has been taking this for a year now\n-no history of thyroid problems\nPMH: none\nMeds: adderall (not prescribed)\nFamHx: Mom- \"thyroid problem\"; dad- heart attack at 52\nSocial: lives with roomate; 3-4 alcoholic beverages/week, no durgs, sexually active w girlfriend and uses condoms"
+    },
+    {
+      "id": "02271_007",
+      "feature": "Shortness of breath",
+      "gold": [
+        {
+          "start": 136,
+          "end": 155,
+          "text": "hortness of breath "
+        }
+      ],
+      "pred": [
+        {
+          "start": 135,
+          "end": 154,
+          "text": "shortness of breath"
+        }
+      ],
+      "note_excerpt": "itations\n-episodes occur randomly, no associated with activity, associated with shortness of breath and pre-syncope\n-no sweating, feeling of impending doom, anxiety with episodes,"
+    }
+  ],
+  "false_negatives": [
+    {
+      "id": "02308_007",
+      "feature": "Shortness of breath",
+      "gold": [
+        {
+          "start": 386,
+          "end": 411,
+          "text": "couldn't catch his breath"
+        }
+      ],
+      "pred": [],
+      "note_excerpt": "er or worse. the last time it occured, also had chest pressure and felt that he couldn't catch his breath (during a soccer game) and felt that he was going to pass out, though didn't. h"
+    },
+    {
+      "id": "02315_010",
+      "feature": "Few months duration",
+      "gold": [
+        {
+          "start": 100,
+          "end": 113,
+          "text": "past 2 months"
+        }
+      ],
+      "pred": [],
+      "note_excerpt": " with episodes of heart palpitations. He has had 2-3 episodes per month for the past 2 months. Most recent episode was yesterday. Episodes last 3-4 minutes, and he reports n"
+    },
+    {
+      "id": "02428_004",
+      "feature": "Lightheaded",
+      "gold": [
+        {
+          "start": 131,
+          "end": 135,
+          "text": "felt"
+        },
+        {
+          "start": 182,
+          "end": 212,
+          "text": "ike he was going to \"pass out\""
+        }
+      ],
+      "pred": [],
+      "note_excerpt": "mes in with palpitations. the last time he felt them, about 2 days ago, he also felt short of breath and some chest pressure, and like he was going to \"pass out\". he denies sweating, loss of consciousness, he says these palpitations happen a"
+    },
+    {
+      "id": "02428_010",
+      "feature": "Few months duration",
+      "gold": [
+        {
+          "start": 328,
+          "end": 353,
+          "text": "going on for a few months"
+        }
+      ],
+      "pred": [],
+      "note_excerpt": "ousness, he says these palpitations happen a couple times a month and have been going on for a few months. he does not associate any pattern with when the palpitations happen. the only "
+    },
+    {
+      "id": "02430_002",
+      "feature": "Chest pressure",
+      "gold": [
+        {
+          "start": 274,
+          "end": 282,
+          "text": "pressure"
+        }
+      ],
+      "pred": [],
+      "note_excerpt": "pisode was 2 days ago while playing basketball. Patient describes heart racing, pressure, shortness of breath, and light headedness. Episodes have occured variably, som"
+    },
+    {
+      "id": "10873_106",
+      "feature": "Recurrent bouts over past 6 months",
+      "gold": [
+        {
+          "start": 263,
+          "end": 303,
+          "text": "pain has occurred 3-4x in the past month"
+        }
+      ],
+      "pred": [],
+      "note_excerpt": " ago. 5/10 pain. She was asleep when it happened and the pain woke her up. This pain has occurred 3-4x in the past month. She does not feel better with Ibprofen use (3 tablets/day 200mg), and she feel"
+    },
+    {
+      "id": "10873_109",
+      "feature": "Diminished appetite",
+      "gold": [
+        {
+          "start": 528,
+          "end": 546,
+          "text": "hasn't felt hungry"
+        }
+      ],
+      "pred": [],
+      "note_excerpt": "eeling looser. She reports loose, watery, brown diarrhea a couple days ago. She hasn't felt hungry today and her last meal was last night. LMP 2 weeks ago, regular, no discharge."
+    },
+    {
+      "id": "10888_106",
+      "feature": "Recurrent bouts over past 6 months",
+      "gold": [
+        {
+          "start": 417,
+          "end": 452,
+          "text": "pain 3-4 times in the last 6 months"
+        }
+      ],
+      "pred": [],
+      "note_excerpt": "has not eaten since last night. She has had episodes of similar but less severe pain 3-4 times in the last 6 months, lasting about 2 hours and then self-resolving. She has also had intermittent n"
+    },
+    {
+      "id": "10926_102",
+      "feature": "Not sexually active",
+      "gold": [
+        {
+          "start": 753,
+          "end": 772,
+          "text": "ually active; last "
+        }
+      ],
+      "pred": [],
+      "note_excerpt": "ily\nSocial: student, lives alone; non-smoker, 2 drinks of alcohol/month. Not sexually active; last partner 9 mo ago. consistent condom use; no hx of STDs"
+    },
+    {
+      "id": "10968_102",
+      "feature": "Not sexually active",
+      "gold": [
+        {
+          "start": 915,
+          "end": 939,
+          "text": "partner last year, usues"
+        }
+      ],
+      "pred": [],
+      "note_excerpt": "udent, occasional alcohol 2/month. Denies smoking or illicit drug use. ! sexual partner last year, usues con"
+    },
+    {
+      "id": "10988_106",
+      "feature": "Recurrent bouts over past 6 months",
+      "gold": [
+        {
+          "start": 124,
+          "end": 134,
+          "text": "Similar sx"
+        },
+        {
+          "start": 159,
+          "end": 172,
+          "text": "past 6 months"
+        }
+      ],
+      "pred": [],
+      "note_excerpt": "/10, constant, no radiation, progressively woresening, dull and achy in nature. Similar sx for 3-4 episodes in the past 6 months. Allev. with ibuprofen, aggrav. with walking. Pos for diarrhea for past couple "
+    },
+    {
+      "id": "10988_110",
+      "feature": "Normal LMP 2 weeks ago / Normal last menstrual period 2 weeks ago",
+      "gold": [
+        {
+          "start": 459,
+          "end": 476,
+          "text": "LMP was 2 wks ago"
+        },
+        {
+          "start": 665,
+          "end": 677,
+          "text": "ks ago. 0G0P"
+        }
+      ],
+      "pred": [],
+      "note_excerpt": "s of appetite. Neg for fever, chills, nausea, vomiting, jaundice, constipation. LMP was 2 wks ago. last sexual intercourse was 9 months ago.\nPMH: None\nNKDA.\nMeds: ibuprofen \nno h/o hospitalizations, injuries, and surgery.\nFH: parents both alive and well. non-contributory.\nOBGYN: LMP 2wks ago. 0G0P\nSexually active with only men. last sexual intercourse was 9 months ago. \nSH: s"
+    }
+  ],
+  "buckets": {
+    "empty_gold": {
+      "tp": 260,
+      "fp": 2578,
+      "fn": 0,
+      "n": 449,
+      "precision": 0.0916138125440451,
+      "recall": 1.0,
+      "f1": 0.16785022595222723
+    },
+    "short_span": {
+      "tp": 1088,
+      "fp": 739,
+      "fn": 180,
+      "n": 258,
+      "precision": 0.595511767925561,
+      "recall": 0.8580441640378549,
+      "f1": 0.703069466882068
+    },
+    "long_span": {
+      "tp": 2142,
+      "fp": 1305,
+      "fn": 3738,
+      "n": 102,
+      "precision": 0.6214099216710183,
+      "recall": 0.36428571428571427,
+      "f1": 0.45931167577999354
+    },
+    "negation_feature": {
+      "tp": 1025,
+      "fp": 1599,
+      "fn": 1033,
+      "n": 170,
+      "precision": 0.390625,
+      "recall": 0.49805636540330417,
+      "f1": 0.43784707390004274
+    },
+    "rare_feature": {
+      "tp": 5215,
+      "fp": 5895,
+      "fn": 5352,
+      "n": 850,
+      "precision": 0.4693969396939694,
+      "recall": 0.49351755465127284,
+      "f1": 0.4811551413941043
+    },
+    "long_note": {
+      "tp": 4760,
+      "fp": 3778,
+      "fn": 3912,
+      "n": 547,
+      "precision": 0.5575076130241274,
+      "recall": 0.5488929889298892,
+      "f1": 0.5531667635095875
+    }
+  },
+  "hardest_features": [
+    {
+      "tp": 3,
+      "fp": 189,
+      "fn": 153,
+      "precision": 0.015625,
+      "recall": 0.019230769230769232,
+      "f1": 0.017241379310344827,
+      "feature_num": 310,
+      "display": "Awakens at night"
+    },
+    {
+      "tp": 2,
+      "fp": 84,
+      "fn": 27,
+      "precision": 0.023255813953488372,
+      "recall": 0.06896551724137931,
+      "f1": 0.034782608695652174,
+      "feature_num": 311,
+      "display": "No blood in stool"
+    },
+    {
+      "tp": 3,
+      "fp": 78,
+      "fn": 0,
+      "precision": 0.037037037037037035,
+      "recall": 1.0,
+      "f1": 0.07142857142857142,
+      "feature_num": 502,
+      "display": "No caffeine use"
+    },
+    {
+      "tp": 9,
+      "fp": 28,
+      "fn": 145,
+      "precision": 0.24324324324324326,
+      "recall": 0.05844155844155844,
+      "f1": 0.09424083769633507,
+      "feature_num": 206,
+      "display": "Recent nausea vomiting / Recent flulike symptoms"
+    },
+    {
+      "tp": 18,
+      "fp": 138,
+      "fn": 128,
+      "precision": 0.11538461538461539,
+      "recall": 0.1232876712328767,
+      "f1": 0.11920529801324503,
+      "feature_num": 510,
+      "display": "Associated feeling of impending doom"
+    },
+    {
+      "tp": 34,
+      "fp": 22,
+      "fn": 184,
+      "precision": 0.6071428571428571,
+      "recall": 0.1559633027522936,
+      "f1": 0.24817518248175183,
+      "feature_num": 813,
+      "display": "Visual hallucination once"
+    },
+    {
+      "tp": 31,
+      "fp": 78,
+      "fn": 107,
+      "precision": 0.28440366972477066,
+      "recall": 0.2246376811594203,
+      "f1": 0.2510121457489879,
+      "feature_num": 803,
+      "display": "Auditory hallucination once"
+    },
+    {
+      "tp": 44,
+      "fp": 0,
+      "fn": 255,
+      "precision": 1.0,
+      "recall": 0.14715719063545152,
+      "f1": 0.25655976676384845,
+      "feature_num": 300,
+      "display": "FHx of PUD / Family history of peptic ulcer disease"
+    },
+    {
+      "tp": 45,
+      "fp": 86,
+      "fn": 172,
+      "precision": 0.3435114503816794,
+      "recall": 0.2073732718894009,
+      "f1": 0.25862068965517243,
+      "feature_num": 1,
+      "display": "Family history of thyroid disorder"
+    },
+    {
+      "tp": 77,
+      "fp": 121,
+      "fn": 302,
+      "precision": 0.3888888888888889,
+      "recall": 0.20316622691292877,
+      "f1": 0.266897746967071,
+      "feature_num": 505,
+      "display": "Recent visit to emergency department with negative workup"
+    }
+  ]
+}

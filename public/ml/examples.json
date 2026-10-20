@@ -1,0 +1,1031 @@
+[
+  {
+    "pn_num": 2223,
+    "case_num": 0,
+    "text": "Dillon Cleveland is a 17 year old male with no significant past medical history who presents for evaluation of episodic palpitations, chest pressure, and light headedness. He reports that these issues started after he started taking adderall given to him by a friend to help with studying at college. He also drinks energy drinks from time to time. He reports that his mood is good and college has been fine but a little hectic. He has not noted any particular triggers. Denies recent weight changes or changes to hair and skin.\nNo prior surgeries or hospitalizations.\nMeds: Adderall from a friend. Denies others.\nAllergies: NKA\nFmHx: Father- MI at 52\nMother; Thyroid issue\nSHx: College student for 1 year. Living on campus. School is \"hectic\"\nHigh risk: Denies smoking. Drinks 3-4 drinks per weekend. Tried marajuana once. Denies other drugs.",
+    "entities": [
+      {
+        "start": 22,
+        "end": 33,
+        "text": "17 year old",
+        "type": "17 year",
+        "feature_num": 11
+      },
+      {
+        "start": 34,
+        "end": 38,
+        "text": "male",
+        "type": "Male",
+        "feature_num": 12
+      },
+      {
+        "start": 111,
+        "end": 119,
+        "text": "episodic",
+        "type": "Intermittent symptoms",
+        "feature_num": 3
+      },
+      {
+        "start": 120,
+        "end": 132,
+        "text": "palpitations",
+        "type": "Heart pounding / heart racing",
+        "feature_num": 9
+      },
+      {
+        "start": 134,
+        "end": 148,
+        "text": "chest pressure",
+        "type": "Chest pressure",
+        "feature_num": 2
+      },
+      {
+        "start": 154,
+        "end": 170,
+        "text": "light headedness",
+        "type": "Lightheaded",
+        "feature_num": 4
+      },
+      {
+        "start": 233,
+        "end": 241,
+        "text": "adderall",
+        "type": "Adderall use",
+        "feature_num": 6
+      },
+      {
+        "start": 316,
+        "end": 329,
+        "text": "energy drinks",
+        "type": "Caffeine use",
+        "feature_num": 8
+      },
+      {
+        "start": 471,
+        "end": 477,
+        "text": "Denies",
+        "type": "No hair changes / no nail changes / no temperature intolerance",
+        "feature_num": 5
+      },
+      {
+        "start": 503,
+        "end": 518,
+        "text": "changes to hair",
+        "type": "No hair changes / no nail changes / no temperature intolerance",
+        "feature_num": 5
+      },
+      {
+        "start": 577,
+        "end": 585,
+        "text": "derall f",
+        "type": "Adderall use",
+        "feature_num": 6
+      },
+      {
+        "start": 639,
+        "end": 649,
+        "text": "er- MI at ",
+        "type": "Family history of MI / Family history of myocardial infarction",
+        "feature_num": 0
+      },
+      {
+        "start": 657,
+        "end": 678,
+        "text": "r; Thyroid issue\nSHx:",
+        "type": "Family history of thyroid disorder",
+        "feature_num": 1
+      }
+    ]
+  },
+  {
+    "pn_num": 10873,
+    "case_num": 1,
+    "text": "20yo F is complaining of an achy bad crampy pain in the lower right quadrent. The pain is constant, does not radiate and began suddenly. The worsening pain is 5/10 and started 8-10hrs ago. 5/10 pain. She was asleep when it happened and the pain woke her up. This pain has occurred 3-4x in the past month. She does not feel better with Ibprofen use (3 tablets/day 200mg), and she feels worse with walking. She noticed some weight loss with clothes feeling looser. She reports loose, watery, brown diarrhea a couple days ago. She hasn't felt hungry today and her last meal was last night. LMP 2 weeks ago, regular, no discharge. Denies changes in urination, redness, swelling, rashes, constipation. SHx: Studies biology in college, drinking EtOH 2x/mo, no tobacco, under stress with exams coming, and drinks 4-5cups/day of coffee. No rec drugs. SexHx: Last sexually active 9mo ago but broke up with boyfriend. No Hx of STI\nPMH, FHx non contributory",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "text": "20yo",
+        "type": "20 year",
+        "feature_num": 104
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "text": "F",
+        "type": "Female",
+        "feature_num": 112
+      },
+      {
+        "start": 44,
+        "end": 76,
+        "text": "pain in the lower right quadrent",
+        "type": "Right sided LQ abdominal pain / Right lower quadrant abdominal pain",
+        "feature_num": 107
+      },
+      {
+        "start": 168,
+        "end": 187,
+        "text": "started 8-10hrs ago",
+        "type": "8 to 10 hours of acute pain",
+        "feature_num": 111
+      },
+      {
+        "start": 263,
+        "end": 303,
+        "text": "pain has occurred 3-4x in the past month",
+        "type": "Recurrent bouts over past 6 months",
+        "feature_num": 106
+      },
+      {
+        "start": 422,
+        "end": 433,
+        "text": "weight loss",
+        "type": "Weight loss",
+        "feature_num": 101
+      },
+      {
+        "start": 439,
+        "end": 461,
+        "text": "clothes feeling looser",
+        "type": "Weight loss",
+        "feature_num": 101
+      },
+      {
+        "start": 496,
+        "end": 504,
+        "text": "diarrhea",
+        "type": "Prior episodes of diarrhea",
+        "feature_num": 103
+      },
+      {
+        "start": 528,
+        "end": 546,
+        "text": "hasn't felt hungry",
+        "type": "Diminished appetite",
+        "feature_num": 109
+      },
+      {
+        "start": 587,
+        "end": 602,
+        "text": "LMP 2 weeks ago",
+        "type": "Normal LMP 2 weeks ago / Normal last menstrual period 2 weeks ago",
+        "feature_num": 110
+      },
+      {
+        "start": 850,
+        "end": 878,
+        "text": "Last sexually active 9mo ago",
+        "type": "Not sexually active",
+        "feature_num": 102
+      }
+    ]
+  },
+  {
+    "pn_num": 21997,
+    "case_num": 2,
+    "text": "Mrs Montgomery 44 year old F Presented wth Irregular Mesntruation. For Past 3 years has noted abnormal/irregular mestrual cycle length -time between cycles varying between 3 weeks and 4 months -  and volume of menstrual blleding - sometimes very heavy cycles, sometimes very light. Periods last between 2 and 6 days. No spotting or abnormal vaginal discharge or itch. Has noted vaginal dryness and occasional hot flashes. 1x episode of night sweats last week. No weight change, fatigue, skin or hair changes or abdominal pain. Bowel and bladder habit normalObs/Gyn Hx: Previously periods were every 28-29 days and lasted 5 days with 2/3 pads or tampons used per day. 2 uncomplicated pregnancies with vaginal deliveries. No miscarriages or abortions. PMH: Htn PSH: Nil Meds HCTZ NKDA Family Hx: Mother osteoarthritis and htn Social: Office Manager, Alcohol on special occaions only. non smler, no illicit drug use, sexually active with husband only",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "Mrs",
+        "type": "Female",
+        "feature_num": 208
+      },
+      {
+        "start": 15,
+        "end": 26,
+        "text": "44 year old",
+        "type": "44 year",
+        "feature_num": 216
+      },
+      {
+        "start": 27,
+        "end": 28,
+        "text": "F",
+        "type": "Female",
+        "feature_num": 208
+      },
+      {
+        "start": 43,
+        "end": 65,
+        "text": "Irregular Mesntruation",
+        "type": "Irregular menses",
+        "feature_num": 205
+      },
+      {
+        "start": 67,
+        "end": 83,
+        "text": "For Past 3 years",
+        "type": "Onset 3 years ago",
+        "feature_num": 213
+      },
+      {
+        "start": 67,
+        "end": 70,
+        "text": "For",
+        "type": "Onset 3 years ago",
+        "feature_num": 213
+      },
+      {
+        "start": 76,
+        "end": 83,
+        "text": "3 years",
+        "type": "Onset 3 years ago",
+        "feature_num": 213
+      },
+      {
+        "start": 94,
+        "end": 102,
+        "text": "abnormal",
+        "type": "Irregular menses",
+        "feature_num": 205
+      },
+      {
+        "start": 103,
+        "end": 127,
+        "text": "irregular mestrual cycle",
+        "type": "Irregular menses",
+        "feature_num": 205
+      },
+      {
+        "start": 113,
+        "end": 127,
+        "text": "mestrual cycle",
+        "type": "Irregular menses",
+        "feature_num": 205
+      },
+      {
+        "start": 136,
+        "end": 192,
+        "text": "time between cycles varying between 3 weeks and 4 months",
+        "type": "Irregular flow / Irregular frequency / Irregular intervals",
+        "feature_num": 212
+      },
+      {
+        "start": 231,
+        "end": 240,
+        "text": "sometimes",
+        "type": "Irregular flow / Irregular frequency / Irregular intervals",
+        "feature_num": 212
+      },
+      {
+        "start": 246,
+        "end": 251,
+        "text": "heavy",
+        "type": "Irregular flow / Irregular frequency / Irregular intervals",
+        "feature_num": 212
+      },
+      {
+        "start": 260,
+        "end": 269,
+        "text": "sometimes",
+        "type": "Irregular flow / Irregular frequency / Irregular intervals",
+        "feature_num": 212
+      },
+      {
+        "start": 275,
+        "end": 280,
+        "text": "light",
+        "type": "Irregular flow / Irregular frequency / Irregular intervals",
+        "feature_num": 212
+      },
+      {
+        "start": 290,
+        "end": 315,
+        "text": "last between 2 and 6 days",
+        "type": "Irregular flow / Irregular frequency / Irregular intervals",
+        "feature_num": 212
+      },
+      {
+        "start": 378,
+        "end": 393,
+        "text": "vaginal dryness",
+        "type": "Vaginal dryness",
+        "feature_num": 204
+      },
+      {
+        "start": 409,
+        "end": 420,
+        "text": "hot flashes",
+        "type": "Hot flashes",
+        "feature_num": 211
+      },
+      {
+        "start": 436,
+        "end": 448,
+        "text": "night sweats",
+        "type": "Heavy sweating",
+        "feature_num": 214
+      },
+      {
+        "start": 569,
+        "end": 579,
+        "text": "Previously",
+        "type": "Prior normal periods",
+        "feature_num": 200
+      },
+      {
+        "start": 569,
+        "end": 587,
+        "text": "Previously periods",
+        "type": "Prior normal periods",
+        "feature_num": 200
+      },
+      {
+        "start": 569,
+        "end": 587,
+        "text": "Previously periods",
+        "type": "Prior normal periods",
+        "feature_num": 200
+      },
+      {
+        "start": 580,
+        "end": 609,
+        "text": "periods were every 28-29 days",
+        "type": "Prior normal periods",
+        "feature_num": 200
+      },
+      {
+        "start": 614,
+        "end": 627,
+        "text": "lasted 5 days",
+        "type": "Prior normal periods",
+        "feature_num": 200
+      },
+      {
+        "start": 628,
+        "end": 665,
+        "text": "with 2/3 pads or tampons used per day",
+        "type": "Prior normal periods",
+        "feature_num": 200
+      },
+      {
+        "start": 914,
+        "end": 929,
+        "text": "sexually active",
+        "type": "Sexually active",
+        "feature_num": 203
+      }
+    ]
+  },
+  {
+    "pn_num": 39149,
+    "case_num": 3,
+    "text": "35 yo m, c/o stomach pain since 2 months. Pain is located in the epigastric region, 5/10 intensity, burning in nature, non-radiating. Pain is intermittent and has been getting worse. Would occur once a week earlier, but now occurs 2-3 times a day. Also gives h/o dark stools since 2 weeks. Intermittent back pain. Denies palpitations, chest pain, sweating, changes in urinary / bowel movements. H/o eating junk food. Reduced apetite. No aggravating or relieving factors. \nROS - negative except as above\nAllergies - NKA \nMeds - Tums once a week. \nPMH - noncontributory. No hospitalisation, injuries, trauma, surgeries. \nFH - Uncle who had a bleeding ulcer \nSH - smokes half to one ppd for 20 years. Occasionally drinks beer. Denies illicit drugs. Not sexually active. Construction worker.",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "35 yo",
+        "type": "35 year",
+        "feature_num": 315
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "text": "m",
+        "type": "Male",
+        "feature_num": 308
+      },
+      {
+        "start": 26,
+        "end": 40,
+        "text": "since 2 months",
+        "type": "Duration 2 months",
+        "feature_num": 309
+      },
+      {
+        "start": 42,
+        "end": 82,
+        "text": "Pain is located in the epigastric region",
+        "type": "Epigastric discomfort",
+        "feature_num": 301
+      },
+      {
+        "start": 100,
+        "end": 107,
+        "text": "burning",
+        "type": "Burning / gnawing / burning and gnawing",
+        "feature_num": 304
+      },
+      {
+        "start": 142,
+        "end": 154,
+        "text": "intermittent",
+        "type": "Intermittent",
+        "feature_num": 312
+      },
+      {
+        "start": 168,
+        "end": 181,
+        "text": "getting worse",
+        "type": "Getting worse / progressive / symptoms now daily",
+        "feature_num": 306
+      },
+      {
+        "start": 220,
+        "end": 246,
+        "text": "now occurs 2-3 times a day",
+        "type": "Getting worse / progressive / symptoms now daily",
+        "feature_num": 306
+      },
+      {
+        "start": 263,
+        "end": 274,
+        "text": "dark stools",
+        "type": "Darker bowel movements",
+        "feature_num": 302
+      },
+      {
+        "start": 629,
+        "end": 659,
+        "text": " who had a bleeding ulcer \nSH ",
+        "type": "FHx of PUD / Family history of peptic ulcer disease",
+        "feature_num": 300
+      },
+      {
+        "start": 704,
+        "end": 728,
+        "text": "onally drinks beer. Deni",
+        "type": "2 to 3 beers a week",
+        "feature_num": 307
+      }
+    ]
+  },
+  {
+    "pn_num": 44612,
+    "case_num": 4,
+    "text": "CC: Nervous all the time\nHPI: Mrs. Moore is a 45 year old WF that comes to clinic with constant nervousness about her personal and work life. She has recently sqwitched jobs and is lecturing infront of students on Mondays. She gets most nervous on sunday evenings and monday mornings but the nervousnes continues throughout the week. She also gets headaches when she gets stressed and takes a tylenol which resolves the issues. She also has a decrease in appetite during Sunday/Monday. c/o insomnia. She denies racing thoughs, CP, palpitations, nail changes, hair changes, abdominal pain, and quivering voice during presentations.\nROS: See HPI\nPMHx: Hospitalized for the birth of her 2 kids. Takes tylenol. Denies surgeries, allergies,traveling, and sick contacts. Up to date on vaccinations\nFHx: Father heart attack at 65\nShx: Denies tobacco, drug use. Drinks socially 1-2 wine glasses. Monogamous with husband, no condoms. English professor",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "text": "Nervous",
+        "type": "Anxious / nervous",
+        "feature_num": 401
+      },
+      {
+        "start": 47,
+        "end": 54,
+        "text": "5 year ",
+        "type": "45 year",
+        "feature_num": 409
+      },
+      {
+        "start": 97,
+        "end": 108,
+        "text": "ervousness ",
+        "type": "Anxious / nervous",
+        "feature_num": 401
+      },
+      {
+        "start": 238,
+        "end": 245,
+        "text": "ervous ",
+        "type": "Anxious / nervous",
+        "feature_num": 401
+      },
+      {
+        "start": 293,
+        "end": 303,
+        "text": "ervousnes ",
+        "type": "Anxious / nervous",
+        "feature_num": 401
+      },
+      {
+        "start": 444,
+        "end": 464,
+        "text": "ecrease in appetite ",
+        "type": "Decreased appetite",
+        "feature_num": 408
+      },
+      {
+        "start": 491,
+        "end": 499,
+        "text": "nsomnia.",
+        "type": "Insomnia",
+        "feature_num": 406
+      },
+      {
+        "start": 505,
+        "end": 511,
+        "text": "enies ",
+        "type": "Lack of other thyroid symptoms",
+        "feature_num": 400
+      },
+      {
+        "start": 505,
+        "end": 511,
+        "text": "enies ",
+        "type": "Lack of other thyroid symptoms",
+        "feature_num": 400
+      },
+      {
+        "start": 505,
+        "end": 511,
+        "text": "enies ",
+        "type": "Lack of other thyroid symptoms",
+        "feature_num": 400
+      },
+      {
+        "start": 532,
+        "end": 544,
+        "text": "alpitations,",
+        "type": "Lack of other thyroid symptoms",
+        "feature_num": 400
+      },
+      {
+        "start": 546,
+        "end": 558,
+        "text": "ail changes,",
+        "type": "Lack of other thyroid symptoms",
+        "feature_num": 400
+      },
+      {
+        "start": 560,
+        "end": 572,
+        "text": "air changes,",
+        "type": "Lack of other thyroid symptoms",
+        "feature_num": 400
+      }
+    ]
+  },
+  {
+    "pn_num": 55992,
+    "case_num": 5,
+    "text": "26F with no PMH presents for follow-up of palpitations. Since 5 yrs ago, pt has had episodes of palpitations, SOB, throat tightness, nausea, and feeling hot then cold+clammy, which have increased in frequency recently to 1-2x per day. 2 weeks ago, in addition she experienced numbness of her fingers but denies any color changes at the time; she was seen in the ED and found to have normal CBC, BMP, cardiac enzymes, and ECG at the time. Episodes typically last 15-30mins. No alleviating or exacerbating factors. Reports that she bought a condo 3 months ago but lost her job 2 months ago. Reports good support system with friends and family. Denies weight loss, fever, changes in bowel movements.\nROS: negative other than HPI\nPMH/PSH: none\nMeds and allergies: none\nFH: healthy\nSH: worked as sales consultant but currently unemployed, no smoking/alcohol/drugs, healthy diet and exercise, lives alone\nSexually active with boyfriend, - STD and HIV",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "text": "26",
+        "type": "26 year",
+        "feature_num": 517
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "text": "F",
+        "type": "Female",
+        "feature_num": 501
+      },
+      {
+        "start": 56,
+        "end": 71,
+        "text": "Since 5 yrs ago",
+        "type": "Onset 5 years ago",
+        "feature_num": 500
+      },
+      {
+        "start": 84,
+        "end": 95,
+        "text": "episodes of",
+        "type": "Associated SOB / Associated shortness of breath",
+        "feature_num": 503
+      },
+      {
+        "start": 84,
+        "end": 95,
+        "text": "episodes of",
+        "type": "Associated nausea",
+        "feature_num": 508
+      },
+      {
+        "start": 84,
+        "end": 95,
+        "text": "episodes of",
+        "type": "Associated throat tightness",
+        "feature_num": 512
+      },
+      {
+        "start": 96,
+        "end": 108,
+        "text": "palpitations",
+        "type": "Episodes of heart racing",
+        "feature_num": 504
+      },
+      {
+        "start": 110,
+        "end": 113,
+        "text": "SOB",
+        "type": "Associated SOB / Associated shortness of breath",
+        "feature_num": 503
+      },
+      {
+        "start": 115,
+        "end": 131,
+        "text": "throat tightness",
+        "type": "Associated throat tightness",
+        "feature_num": 512
+      },
+      {
+        "start": 133,
+        "end": 139,
+        "text": "nausea",
+        "type": "Associated nausea",
+        "feature_num": 508
+      },
+      {
+        "start": 145,
+        "end": 156,
+        "text": "feeling hot",
+        "type": "Feels hot / Feels clammy",
+        "feature_num": 513
+      },
+      {
+        "start": 145,
+        "end": 152,
+        "text": "feeling",
+        "type": "Feels hot / Feels clammy",
+        "feature_num": 513
+      },
+      {
+        "start": 167,
+        "end": 173,
+        "text": "clammy",
+        "type": "Feels hot / Feels clammy",
+        "feature_num": 513
+      },
+      {
+        "start": 186,
+        "end": 217,
+        "text": "increased in frequency recently",
+        "type": "Increased frequency recently",
+        "feature_num": 509
+      },
+      {
+        "start": 186,
+        "end": 208,
+        "text": "increased in frequency",
+        "type": "Increased frequency recently",
+        "feature_num": 509
+      },
+      {
+        "start": 235,
+        "end": 246,
+        "text": "2 weeks ago",
+        "type": "Recent visit to emergency department with negative workup",
+        "feature_num": 505
+      },
+      {
+        "start": 235,
+        "end": 246,
+        "text": "2 weeks ago",
+        "type": "Increased frequency recently",
+        "feature_num": 509
+      },
+      {
+        "start": 276,
+        "end": 299,
+        "text": "numbness of her fingers",
+        "type": "Episode of hand numbness / Episode of finger numbness",
+        "feature_num": 514
+      },
+      {
+        "start": 350,
+        "end": 382,
+        "text": "seen in the ED and found to have",
+        "type": "Recent visit to emergency department with negative workup",
+        "feature_num": 505
+      },
+      {
+        "start": 383,
+        "end": 424,
+        "text": "normal CBC, BMP, cardiac enzymes, and ECG",
+        "type": "Recent visit to emergency department with negative workup",
+        "feature_num": 505
+      },
+      {
+        "start": 457,
+        "end": 471,
+        "text": "last 15-30mins",
+        "type": "Episodes last 15 to 30 minutes",
+        "feature_num": 511
+      },
+      {
+        "start": 530,
+        "end": 544,
+        "text": "bought a condo",
+        "type": "Increased stress",
+        "feature_num": 516
+      },
+      {
+        "start": 558,
+        "end": 574,
+        "text": "but lost her job",
+        "type": "Increased stress",
+        "feature_num": 516
+      },
+      {
+        "start": 827,
+        "end": 837,
+        "text": "loyed, no ",
+        "type": "Increased stress",
+        "feature_num": 516
+      },
+      {
+        "start": 839,
+        "end": 841,
+        "text": "ok",
+        "type": "No illicit drug use",
+        "feature_num": 507
+      },
+      {
+        "start": 858,
+        "end": 863,
+        "text": ", hea",
+        "type": "No illicit drug use",
+        "feature_num": 507
+      }
+    ]
+  },
+  {
+    "pn_num": 61659,
+    "case_num": 6,
+    "text": "Kane Smith is a 17 y/o male who presents with constant, left sided chest pain since yesterday morning that worsens with deep inspiration associated with a subjective fever. He has tried Tylenol and Albuterol inhaler with no relief. He denies the pain radiating anywhere. He can't think of any inciting events and has no prior hx of such pain. Of note, he states that he has 3-4 days of stuffy nose and muscle aches. He denies sick contacts, recent travel, or trauma to chest. No family hx of sudden cardiac death and denies drug use apart from marijuana every \"blue moon.\"\n\nROS: Neg except as stated above\nPMH: Exercise induced asthma\nFH: Dad-asthma\nSurgeries: None\nMeds: As stated above\nAllergies: None\nBeer: 1x/month. Rarely smokes marijuana. Denies other drug use. No tobacco use\nSenior in high school with good grades. Lives with mother, father and older brother",
+    "entities": [
+      {
+        "start": 16,
+        "end": 22,
+        "text": "17 y/o",
+        "type": "17 year",
+        "feature_num": 602
+      },
+      {
+        "start": 23,
+        "end": 27,
+        "text": "male",
+        "type": "Male",
+        "feature_num": 601
+      },
+      {
+        "start": 67,
+        "end": 77,
+        "text": "chest pain",
+        "type": "Chest pain",
+        "feature_num": 606
+      },
+      {
+        "start": 84,
+        "end": 93,
+        "text": "yesterday",
+        "type": "Duration x 1 day",
+        "feature_num": 607
+      },
+      {
+        "start": 107,
+        "end": 136,
+        "text": "worsens with deep inspiration",
+        "type": "Worse with deep breath / pleuritic",
+        "feature_num": 604
+      },
+      {
+        "start": 155,
+        "end": 171,
+        "text": "subjective fever",
+        "type": "Subjective fevers",
+        "feature_num": 600
+      },
+      {
+        "start": 198,
+        "end": 230,
+        "text": "Albuterol inhaler with no relief",
+        "type": "No relief with asthma inhaler",
+        "feature_num": 610
+      },
+      {
+        "start": 374,
+        "end": 397,
+        "text": "3-4 days of stuffy nose",
+        "type": "Recent upper respiratory symptoms",
+        "feature_num": 603
+      },
+      {
+        "start": 614,
+        "end": 637,
+        "text": "rcise induced asthma\nFH",
+        "type": "Exercise induced asthma",
+        "feature_num": 605
+      }
+    ]
+  },
+  {
+    "pn_num": 73792,
+    "case_num": 7,
+    "text": "HPI: 35 YO F C/O MENSTRUAL ABNORMALITIES FOR 6 MONTHS. HAS HEAVY PERIODS, USES MORE TAMPONS THAN BEFORE, BUT HAD ONLY 2 PERIODS IN THE LAST 6 MONTHS. LMP; 2 MONTHS AGO. MENARCHE: AT 12 YO. PATIENT DENIES DYPARUNIA OR DYSMENORREA, OR SPOTTING. PATIENT GAINED 10LBS IN LAST 6 MONTHS. PATIENT HAS SKIN RASH ON HANDS AND NECK FOR 1 YR, BUT DENIES ANY JOINT PAIN, STIFFNESS, FEVER, CHANGES IN URINARY OR BOWELS HABITS. PT HAS NO COLD INTOLERANCE, PALPITATIONS OR SOB. PT HAS NO HAIR CHANGES. NO MISCARRIAGES OR ABORTION\nROS: NEGATIVE EXCEPT AS ABOVE\nPMH: NEGATIVE, EXCEPT INABILITY TO GET PREGNANT IN THE LAST 10 YRS.\nSH: SEXUALLY ACTIVE WITH BOYFRIEND OF MORE THAN YR, NO PROTECTION",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "text": "35 YO",
+        "type": "35 year",
+        "feature_num": 707
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "text": "F",
+        "type": "Female",
+        "feature_num": 700
+      },
+      {
+        "start": 17,
+        "end": 40,
+        "text": "MENSTRUAL ABNORMALITIES",
+        "type": "Heavy periods / irregular periods",
+        "feature_num": 702
+      },
+      {
+        "start": 45,
+        "end": 53,
+        "text": "6 MONTHS",
+        "type": "Symptoms for 6 months",
+        "feature_num": 708
+      },
+      {
+        "start": 59,
+        "end": 72,
+        "text": "HEAVY PERIODS",
+        "type": "Heavy periods / irregular periods",
+        "feature_num": 702
+      },
+      {
+        "start": 74,
+        "end": 91,
+        "text": "USES MORE TAMPONS",
+        "type": "Heavy periods / irregular periods",
+        "feature_num": 702
+      },
+      {
+        "start": 113,
+        "end": 148,
+        "text": "ONLY 2 PERIODS IN THE LAST 6 MONTHS",
+        "type": "Heavy periods / irregular periods",
+        "feature_num": 702
+      },
+      {
+        "start": 150,
+        "end": 167,
+        "text": "LMP; 2 MONTHS AGO",
+        "type": "Last menstrual period 2 months ago",
+        "feature_num": 703
+      },
+      {
+        "start": 251,
+        "end": 263,
+        "text": "GAINED 10LBS",
+        "type": "Weight Gain",
+        "feature_num": 701
+      },
+      {
+        "start": 569,
+        "end": 594,
+        "text": "ABILITY TO GET PREGNANT I",
+        "type": "Infertility HX / Infertility history",
+        "feature_num": 706
+      }
+    ]
+  },
+  {
+    "pn_num": 83955,
+    "case_num": 8,
+    "text": "67 year old female presenting for trouble sleeping that started 3 weeks prior. She has toruble falling asleep, has been moving alot during sleepin and has early morning awkening. Assocaited with feeling tired throughout the day. prior to symptoms, her son passed away 3 weeks prior from an accident. associated with increase appetite 4 days ago, saw deceased son in kitchen, and 3 days ago heard loud music . Denies changes in concentration, interest, no suicidal thoughts, no guilt. Failed to relieve with ambiant and no exacberaing fact. Drinks 1 cup of coffee\nROS Denies headhace, nausea, vomiting, chest pain, SOB, Abdominal pain, changes in bowel and bladder, numbness and tingling in extremities\nAlleriges NKDA\nMedication HCTZ, lisoranil, ambiant\nPMH Hypertension, Breast cancer \nPSH Lumbectomy with radiation and laptromy for appectectomy\nFH - non-contributor\nSH retired, denies tobacco and recreational drug use, ocassial drinking,",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "text": "67 year old",
+        "type": "67 year",
+        "feature_num": 805
+      },
+      {
+        "start": 12,
+        "end": 18,
+        "text": "female",
+        "type": "Female",
+        "feature_num": 802
+      },
+      {
+        "start": 34,
+        "end": 50,
+        "text": "trouble sleeping",
+        "type": "Difficulty with sleep",
+        "feature_num": 817
+      },
+      {
+        "start": 56,
+        "end": 77,
+        "text": "started 3 weeks prior",
+        "type": "Duration 3 weeks",
+        "feature_num": 808
+      },
+      {
+        "start": 87,
+        "end": 109,
+        "text": "toruble falling asleep",
+        "type": "Difficulty falling asleep",
+        "feature_num": 806
+      },
+      {
+        "start": 120,
+        "end": 146,
+        "text": "moving alot during sleepin",
+        "type": "Difficulty with sleep",
+        "feature_num": 817
+      },
+      {
+        "start": 155,
+        "end": 177,
+        "text": "early morning awkening",
+        "type": "Early wakening",
+        "feature_num": 815
+      },
+      {
+        "start": 195,
+        "end": 208,
+        "text": "feeling tired",
+        "type": "Diminished energy / feeling drained",
+        "feature_num": 811
+      },
+      {
+        "start": 252,
+        "end": 281,
+        "text": "son passed away 3 weeks prior",
+        "type": "Son died 3 weeks ago",
+        "feature_num": 801
+      },
+      {
+        "start": 346,
+        "end": 373,
+        "text": "saw deceased son in kitchen",
+        "type": "Visual hallucination once",
+        "feature_num": 813
+      },
+      {
+        "start": 452,
+        "end": 472,
+        "text": "no suicidal thoughts",
+        "type": "No suicidal ideations",
+        "feature_num": 816
+      },
+      {
+        "start": 484,
+        "end": 514,
+        "text": "Failed to relieve with ambiant",
+        "type": "Sleeping medication ineffective",
+        "feature_num": 810
+      }
+    ]
+  },
+  {
+    "pn_num": 94754,
+    "case_num": 9,
+    "text": "HPI:20yo c/o headach which started 1 day ago, its all over the head, constant and progressively worsen, associated nausea, no vomitting. family hx of migraine. patient says these is the worse headach in her life.hx of OCP used. she is on Ibuprofen.\nROS:as above\nALLERGY:\nPMH:\nPSH:\nFH/SH:\nSH:\n",
+    "entities": [
+      {
+        "start": 4,
+        "end": 8,
+        "text": "20yo",
+        "type": "20 year",
+        "feature_num": 901
+      },
+      {
+        "start": 13,
+        "end": 20,
+        "text": "headach",
+        "type": "Global headache / diffuse headache",
+        "feature_num": 904
+      },
+      {
+        "start": 35,
+        "end": 44,
+        "text": "1 day ago",
+        "type": "1 day duration / 2 days duration",
+        "feature_num": 902
+      },
+      {
+        "start": 50,
+        "end": 67,
+        "text": "all over the head",
+        "type": "Global headache / diffuse headache",
+        "feature_num": 904
+      },
+      {
+        "start": 115,
+        "end": 121,
+        "text": "nausea",
+        "type": "Nausea",
+        "feature_num": 908
+      },
+      {
+        "start": 137,
+        "end": 158,
+        "text": "family hx of migraine",
+        "type": "Family history of migraines",
+        "feature_num": 912
+      }
+    ]
+  }
+]

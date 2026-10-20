@@ -1,0 +1,28 @@
+# Dependencies & Build
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test & Coverage
+.pytest_cache/
+coverage/
+
+# Data & Models
+data/raw/*
+!data/raw/.gitkeep
+*.joblib
+*.pt

@@ -1,0 +1,35 @@
+name: CI Workflow
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11"]
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+        cache: 'pip'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f MedNoteClassifier/requirements.txt ]; then pip install -r MedNoteClassifier/requirements.txt; fi
+        pip install pytest pytest-cov
+
+    - name: Run Pytest
+      env:
+        PYTHONPATH: MedNoteClassifier
+      run: |
+        if [ -d MedNoteClassifier/tests ]; then python -m pytest MedNoteClassifier/tests -v; fi

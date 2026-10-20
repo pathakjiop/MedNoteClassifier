@@ -1,0 +1,26 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.857181317979397,
+      "val_loss": 0.7975591023763021,
+      "val_token_f1": 0.0566646853815888
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.7545383346147377,
+      "val_loss": 0.7599205083317226,
+      "val_token_f1": 0.08073395403895496
+    }
+  ],
+  "best_val_token_f1": 0.08073395403895496,
+  "seconds": 138.80061054229736,
+  "epochs": 2,
+  "vocab_size": 5265,
+  "device": "cpu",
+  "architecture": "tiny-transformer-encoder",
+  "d_model": 96,
+  "nlayers": 2,
+  "nhead": 4,
+  "seed": 42
+}
